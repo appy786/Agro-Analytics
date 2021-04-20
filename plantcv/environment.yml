@@ -1,0 +1,20 @@
+# run: conda env create --file environment.yml
+# optionally, change channel name with -n {plantcv-dev}
+name: plantcv
+dependencies:
+  - python=3.7
+  - matplotlib>=1.5
+  - numpy>=1.11
+  - pandas
+  - python-dateutil
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - plotnine
+  - dask
+  - dask-jobqueue
+  - nb_conda
+  - opencv<4, >=3.4
+channels:
+  - conda-forge
+  - defaults
